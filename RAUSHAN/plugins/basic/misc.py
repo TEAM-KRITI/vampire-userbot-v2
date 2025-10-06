@@ -11,20 +11,20 @@ from RAUSHAN.helper.PyroHelpers import ReplyCheck
 from RAUSHAN.plugins.help import add_command_help
 from RAUSHAN.plugins.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/c6a2ed96648fd03377dc9.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/klkggx.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝗔𝗟𝗣𝗛𝗔 ⚡️ **\n\n"
+        f"** ⚡️ 𝐕𝚨𝐌𝐏𝐈𝐑𝚬 ⚡️ **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [˹ 𝐒ᴡᴍ-𝐂ʜᴀᴛ ™˼](https://t.me/+Oh7OmMhAPKY5YTc9)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [˹ 𝐓ᴇᴀᴍ 𝐏ᴜʀᴠɪ ™˼](t.me/PURVI_SUPPORT)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [˹ 𝐀ʟᴘʜᴀ 𝐁ᴀʙʏ ™˼](t.me/ll_ALPHA_BABY_lll)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [˹˹Vᴀᴍᴘɪʀᴇ • ꭙ • 𝖴ᴘᴅᴀᴛᴇ˼𓆩𔘓⃭𓆪˼](https://t.me/llVAMPIREXUPDATEll)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [˹˹Vᴀᴍᴘɪʀᴇ • ꭙ • 𝖴ᴘᴅᴀᴛᴇ˼𓆩𔘓⃭𓆪˼](https://t.me/llDPZ_EDITIXll)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [˹•𝐌ᴀᴅ-ʙʏ•❤️‍🔥˼](t.me/lllVAMPIRE_KINGll)"        
     )
 
 @Client.on_message(
@@ -62,7 +62,7 @@ async def repo(bot: Client, message: Message):
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/TEAMPURVI")
+    await message.edit("https://t.me/llVAMPIRE_PAPA_BOL")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
