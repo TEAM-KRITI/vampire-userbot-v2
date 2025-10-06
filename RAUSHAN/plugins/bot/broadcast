@@ -114,7 +114,7 @@ async def show_stats(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/purvi_support"),
+                    InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/llVAMPIREXUPDATEll"),
                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
                 ]
             ]
